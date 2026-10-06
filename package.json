@@ -1,0 +1,20 @@
+{
+  "name": "superbooks",
+  "version": "1.0.0",
+  "description": "superbooks",
+  "keywords": [
+    "nodejs"
+  ],
+  "license": "ISC",
+  "author": "tyson",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodejf"
+  },
+  "dependencies": {
+    "@cap-js/sqlite": "^3.1.1",
+    "@sap/cds": "^10.1.1",
+    "@sap/cds-dk": "^10.1.0"
+  }
+}
