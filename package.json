@@ -13,8 +13,29 @@
     "test": "nodejf"
   },
   "dependencies": {
+    "@cap-js/console": "^1.0.2",
+    "@cap-js/hana": "^3",
     "@cap-js/sqlite": "^3.1.1",
     "@sap/cds": "^10.1.1",
-    "@sap/cds-dk": "^10.1.0"
+    "@sap/cds-dk": "^10.1.0",
+    "@sap/xssec": "^4"
+  },
+  "devDependencies": {
+    "@sap/cds-dk": "^10"
+  },
+  "overrides": {    
+    "@sap/cds": "$@sap/cds"
+  },
+  "resolutions": {
+    "@sap/cds": "$@sap/cds"
+  },
+  "cds": {
+    "requires": {
+      "xsuaa": true,
+      "[production]": {
+        "auth": "ias"
+      },
+      "app-front": true
+    }
   }
 }
