@@ -19,12 +19,13 @@
     "@cap-js/sqlite": "^3.1.1",
     "@sap/cds": "^10.1.1",
     "@sap/cds-dk": "^10.1.0",
-    "@sap/xssec": "^4"
+    "@sap/xssec": "^4",
+    "npm": "^12.2.0"
   },
   "devDependencies": {
     "@sap/cds-dk": "^10"
   },
-  "overrides": {    
+  "overrides": {
     "@sap/cds": "$@sap/cds"
   },
   "resolutions": {
@@ -35,6 +36,16 @@
       "xsuaa": true,
       "[production]": {
         "auth": "ias"
+      },
+      "[development]": {
+        "auth": {
+          "kind": "mocked",
+          "users": {
+            "ckalpana.katalya@gmail.com": {
+              "roles": ["admin"]
+            }
+          }
+        }
       },
       "app-front": true
     }
