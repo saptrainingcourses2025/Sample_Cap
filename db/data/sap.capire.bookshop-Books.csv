@@ -1,0 +1,11 @@
+ID,title,descr,author_ID,genre_ID,stock,price,currency_code,createdAt,createdBy,modifiedAt,modifiedBy
+19900521,title-19900521,descr-19900521,12810431,2159913,95,86.13,045,2006-06-09T00:00:00.000Z,createdBy.bujc9@example.net,2008-04-23T00:00:00.000Z,modifiedBy.bujc9@example.com
+19900522,title-19900522,descr-19900522,12810431,2159913,23,29.03,045,2020-01-22T00:00:00.000Z,createdBy.bujca@example.org,2017-01-27T00:00:00.000Z,modifiedBy.bujca@example.net
+19900523,title-19900523,descr-19900523,12810431,2159913,83,32.85,045,2008-02-01T00:00:00.000Z,createdBy.bujcb@example.com,2011-04-19T00:00:00.000Z,modifiedBy.bujcb@example.org
+19900524,title-19900524,descr-19900524,12810431,2159913,5,67.29,045,2010-01-22T00:00:00.000Z,createdBy.bujcc@example.com,2005-08-06T00:00:00.000Z,modifiedBy.bujcc@example.com
+19900525,title-19900525,descr-19900525,12810431,2159913,72,50.85,045,2006-12-22T00:00:00.000Z,createdBy.bujcd@example.com,2015-02-21T00:00:00.000Z,modifiedBy.bujcd@example.net
+19900526,title-19900526,descr-19900526,12810431,2159913,81,16.79,045,2004-09-18T00:00:00.000Z,createdBy.bujce@example.net,2016-07-24T00:00:00.000Z,modifiedBy.bujce@example.net
+19900527,title-19900527,descr-19900527,12810431,2159913,83,65.29,045,2008-10-12T00:00:00.000Z,createdBy.bujcf@example.net,2015-09-03T00:00:00.000Z,modifiedBy.bujcf@example.org
+19900528,title-19900528,descr-19900528,12810431,2159913,10,30.16,045,2011-12-01T00:00:00.000Z,createdBy.bujcg@example.com,2014-07-04T00:00:00.000Z,modifiedBy.bujcg@example.org
+19900529,title-19900529,descr-19900529,12810431,2159913,73,14.46,045,2006-09-05T00:00:00.000Z,createdBy.bujch@example.org,2013-05-05T00:00:00.000Z,modifiedBy.bujch@example.com
+19900530,title-19900530,descr-19900530,12810431,2159913,94,78.26,045,2013-08-15T00:00:00.000Z,createdBy.bujci@example.net,2008-08-26T00:00:00.000Z,modifiedBy.bujci@example.net
